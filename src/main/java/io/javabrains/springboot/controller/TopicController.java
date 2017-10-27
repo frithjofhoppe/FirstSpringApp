@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class TopicController
 {
-    @Autowired
+    @Autowired 
     private TopicService topicService;
 
     @RequestMapping("/topics")
